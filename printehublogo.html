@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Document</title>
+            <style>
+                *{
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+                body{
+                    width: 100%;
+                    height: 100vh;
+                    background-color: rgb(32, 35, 20);
+                }
+                #logo{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                #logo path:nth-child(1){
+                    stroke-dasharray: 299.8px;
+                    stroke-dashoffset: 299.8px;
+                    animation: line-anim 2s ease forwards;
+                
+                }
+                #logo path:nth-child(2){
+                    stroke-dasharray: 366px;
+                    stroke-dashoffset: 366px;
+                    animation: line-anim 2s ease forwards 0.5s;
+                }
+                #logo path:nth-child(3){
+                    stroke-dasharray: 152px;
+                    stroke-dashoffset: 152px;
+                    animation: line-anim 2s ease forwards 1.0s;
+                }
+                #logo path:nth-child(4){
+                    stroke-dasharray: 403px;
+                    stroke-dashoffset: 403px;
+                    animation: line-anim 2s ease forwards 2.5s;
+                }
+                #logo path:nth-child(5){
+                    stroke-dasharray: 224.4px;
+                    stroke-dashoffset: 224.4px;
+                    animation: line-anim 2s ease forwards 3.0s;
+                }
+                #logo path:nth-child(6){
+                    stroke-dasharray: 309.3px;
+                    stroke-dashoffset: 309.3px;
+                    animation: line-anim 2s ease forwards 4.0s;
+                }
+                #logo path:nth-child(7){
+                    stroke-dasharray: 356.3px;
+                    stroke-dashoffset: 356.3px;
+                    animation: line-anim 2s ease forwards 5.0s;
+                }
+                #logo path:nth-child(8){
+                    stroke-dasharray: 322.5px;
+                    stroke-dashoffset: 322.5px;
+                    animation: line-anim 2s ease forwards 6.1s;
+                }
+                 #logo path:nth-child(9){
+                    stroke-dasharray: 406.8px;
+                    stroke-dashoffset: 406.8px;
+                    animation: line-anim 2s ease forwards 7.3s;
+                }
+                @keyframes line-anim{
+                    to{
+                        stroke-dashoffset: 0;
+                    }
+                }
+                
+
+            </style>
+    </head>
+    <body>
+            <svg id="logo" width="487" height="71" viewBox="0 0 487 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+                
+                <path d="M46.128 21.672C46.128 27.24 44.208 31.88 40.368 35.592C36.592 39.24 30.8 41.064 22.992 41.064H10.128V69H1.392V2.088H22.992C30.544 2.088 36.272 3.912 40.176 7.56C44.144 11.208 46.128 15.912 46.128 21.672ZM22.992 33.864C27.856 33.864 31.44 32.808 33.744 30.696C36.048 28.584 37.2 25.576 37.2 21.672C37.2 13.416 32.464 9.28799 22.992 9.28799H10.128V33.864H22.992Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                <path d="M92.2178 69L76.2818 41.64H65.7217V69H56.9857V2.088H78.5858C83.6418 2.088 87.8978 2.952 91.3538 4.68C94.8738 6.408 97.4978 8.744 99.2258 11.688C100.954 14.632 101.818 17.992 101.818 21.768C101.818 26.376 100.474 30.44 97.7858 33.96C95.1618 37.48 91.1938 39.816 85.8818 40.968L102.682 69H92.2178ZM65.7217 34.632H78.5858C83.3218 34.632 86.8738 33.48 89.2418 31.176C91.6098 28.808 92.7938 25.672 92.7938 21.768C92.7938 17.8 91.6098 14.728 89.2418 12.552C86.9378 10.376 83.3858 9.28799 78.5858 9.28799H65.7217V34.632Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                <path d="M124.128 2.088V69H115.392V2.088H124.128Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                <path d="M191.625 69H182.889L147.753 15.72V69H139.017V1.992H147.753L182.889 55.176V1.992H191.625V69Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                <path d="M247.701 2.088V9.192H229.461V69H220.725V9.192H202.389V2.088H247.701Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                <path d="M267.19 9.192V31.56H291.574V38.76H267.19V61.8H294.454V69H258.454V1.992H294.454V9.192H267.19Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                <path d="M359.225 2.088V69H350.489V38.664H316.409V69H307.673V2.088H316.409V31.464H350.489V2.088H359.225Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                <path d="M382.686 2.088V44.424C382.686 50.376 384.126 54.792 387.006 57.672C389.95 60.552 394.014 61.992 399.198 61.992C404.318 61.992 408.318 60.552 411.198 57.672C414.142 54.792 415.614 50.376 415.614 44.424V2.088H424.35V44.328C424.35 49.896 423.23 54.6 420.99 58.44C418.75 62.216 415.71 65.032 411.87 66.888C408.094 68.744 403.838 69.672 399.102 69.672C394.366 69.672 390.078 68.744 386.238 66.888C382.462 65.032 379.454 62.216 377.214 58.44C375.038 54.6 373.95 49.896 373.95 44.328V2.088H382.686Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                <path d="M472.427 34.536C474.859 34.92 477.067 35.912 479.051 37.512C481.099 39.112 482.699 41.096 483.851 43.464C485.067 45.832 485.675 48.36 485.675 51.048C485.675 54.44 484.811 57.512 483.083 60.264C481.355 62.952 478.827 65.096 475.499 66.696C472.235 68.232 468.363 69 463.883 69H438.923V2.088H462.923C467.467 2.088 471.339 2.856 474.539 4.392C477.739 5.864 480.139 7.88 481.739 10.44C483.339 13 484.139 15.88 484.139 19.08C484.139 23.048 483.051 26.344 480.875 28.968C478.763 31.528 475.947 33.384 472.427 34.536ZM447.659 30.984H462.347C466.443 30.984 469.611 30.024 471.851 28.104C474.091 26.184 475.211 23.528 475.211 20.136C475.211 16.744 474.091 14.088 471.851 12.168C469.611 10.248 466.379 9.28799 462.155 9.28799H447.659V30.984ZM463.115 61.8C467.467 61.8 470.859 60.776 473.291 58.728C475.723 56.68 476.939 53.832 476.939 50.184C476.939 46.472 475.659 43.56 473.099 41.448C470.539 39.272 467.115 38.184 462.827 38.184H447.659V61.8H463.115Z" stroke="#FBF2F2" stroke-width="2" mask="url(#path-1-outside-1)"/>
+                </svg>
+                
+                
+                
+     <!-- <script>
+         const logo = document.querySelectorAll('#logo path')
+         for(let i = 0; i<logo.length; i++){
+             console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+         }
+     </script> -->
+    </body>
+</html>
